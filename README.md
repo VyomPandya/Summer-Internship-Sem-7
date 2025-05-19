@@ -1,12 +1,14 @@
-# Data Analytics Training – Week 1 Report
+# 7th Semester Summer Internship – Data Analytics
 
-A concise summary of activities, learnings, and outputs achieved during Week 1 of the Data Analytics training program.
+## Week 1 Report
+
+A concise summary of activities, learnings, and outputs achieved during the first week of my 7th semester summer internship in Data Analytics.
 
 ---
 
-## 🚀 Project Overview
+## 🚀 Internship Overview
 
-This repository captures my Week 1 progress as I embark on a comprehensive data analytics learning path. It covers:
+This repository captures my Week 1 progress as I embark on a comprehensive data analytics learning path during my 7th semester summer internship. It covers:
 
 - Foundational concepts and tool setup  
 - Data cleaning and manipulation in Excel and Python  
@@ -23,19 +25,19 @@ This repository captures my Week 1 progress as I embark on a comprehensive data 
 - **Concepts Covered**  
   - Analytics lifecycle, data types (structured, unstructured, semi-structured)  
 - **Environment Setup**  
-  - Installed Anaconda (Jupyter), Microsoft Excel, Power BI Desktop (Tableau Public installed as alternative)  
+  - Installed Anaconda (Jupyter), Microsoft Excel, Power BI Desktop (Tableau Public installed as an alternative)  
 - **Courses & Tutorials**  
   - Completed IBM’s beginner analytics YouTube playlist  
 - **Hands-On Task**  
-  - Imported CSV into Excel, calculated averages, created pivot tables & charts  
+  - Imported a sample CSV into Excel, calculated averages, created pivot tables & charts  
 
 ### 2. Data Cleaning & Manipulation in Excel & Python
 - **Key Topics**  
   - Handling missing values, duplicates, inconsistent formats  
 - **Excel Practice**  
-  - Cleaned a messy dataset: removed duplicates, standardized dates  
+  - Cleaned a “messy” dataset by removing duplicates and standardizing date formats  
 - **Python & Pandas**  
-  - Loaded Titanic dataset; used `df.info()`, `df.describe()`; imputed missing ages; dropped irrelevant columns  
+  - Loaded the Titanic dataset; used `df.info()`, `df.describe()`; imputed missing ages; dropped irrelevant columns  
 
 ### 3. Exploratory Data Analysis (EDA)
 - **Descriptive Statistics**  
@@ -56,11 +58,11 @@ This repository captures my Week 1 progress as I embark on a comprehensive data 
 
 ### 5. SQL for Data Analytics
 - **Core SQL Skills**  
-  - SELECT, WHERE, JOIN, GROUP BY, ORDER BY, aggregates  
+  - SELECT, WHERE, JOIN, GROUP BY, ORDER BY, aggregate functions  
 - **Practice Platforms**  
   - Mode Analytics, HackerRank  
 - **Business Queries**  
-  - Solved 10 real-world queries on sample eCommerce dataset  
+  - Solved 10 real-world queries on a sample eCommerce dataset  
 - **Integration**  
   - Connected Azure SQL to Power BI for live visualization  
 
@@ -72,6 +74,4 @@ This repository captures my Week 1 progress as I embark on a comprehensive data 
   2. EDA & insights  
   3. Interactive dashboard (Power BI/Tableau)  
   4. Final report & mentor presentation  
-- **Timeline**  
-  - Week 4 demo scheduled  
 
