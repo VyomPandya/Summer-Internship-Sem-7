@@ -1,6 +1,6 @@
 # 7th Semester Summer Internship – Data Analytics
 
-## Week 1 Report
+# Week 1 Report
 
 A concise summary of activities, learnings, and outputs achieved during the first week of my 7th semester summer internship in Data Analytics.
 
@@ -75,3 +75,121 @@ This repository captures my Week 1 progress as I embark on a comprehensive data 
   3. Interactive dashboard (Power BI/Tableau)  
   4. Final report & mentor presentation  
 
+# Week 2 Report
+
+---
+
+## 🔍 Project Title: Customer Behavior & Revenue Optimization for E-Commerce Business
+
+### 🎯 Objective
+Analyze customer purchase patterns, churn behavior, product trends, and marketing performance to generate insights that improve retention, sales, and overall business performance.
+
+### 📊 Dataset
+- **Source**: Cleaned Dataset provided by Team A
+- **Base**: E-Commerce Public Dataset (Olist)
+- **File**: `master_dataset.csv`
+
+---
+
+## 🧩 Task 3 – Customer Segmentation
+
+### 📌 Key Steps:
+1. **RFM Analysis**: Recency, Frequency, Monetary values for each customer
+2. **Clustering**: MiniBatchKMeans & HDBSCAN applied for segmentation
+3. **Visualization**: PCA and t-SNE used to visualize clusters
+4. **Strategy Recommendation**: Marketing actions based on customer segments
+
+### 🧪 Implementation Highlights:
+- **Data Preparation**: Cleaned data, parsed datetime, removed nulls
+- **Feature Extraction**: RFM metrics calculated
+- **Preprocessing**: StandardScaler applied, filtered invalid data
+- **Clustering Algorithms**:
+  - MiniBatchKMeans: Fast, scalable clustering
+  - HDBSCAN: Detects noise & density-based clusters
+- **Dimensionality Reduction**: PCA and t-SNE for visualization
+- **Segment Strategy**:
+  - VIP: Upselling, Rewards
+  - At-Risk: Win-back Campaigns
+  - Low-Value: Discounts
+  - Mid-Value: Loyalty Programs
+
+### 📈 Business Value:
+- Personalized marketing
+- Efficient resource allocation
+- Churn prevention & portfolio analysis
+
+### 🔗 Code Notebook: `Week_2_Task_1` (Google Colab)
+
+---
+
+## 🧠 Task 4 – Churn Prediction Model
+
+### 📌 Key Steps:
+1. **Label Customers**: Based on last purchase within 180 days
+2. **Feature Engineering**: Tenure, complaints, frequency, satisfaction
+3. **Model Training**: Logistic Regression, Random Forest, XGBoost, Neural Net
+4. **Evaluation**: Accuracy, Precision, Recall, ROC-AUC, Confusion Matrix
+
+### 🧪 Implementation Highlights:
+- **Preprocessing**: Date parsing, imputation, scaling
+- **Models**:
+  - Logistic Regression (Baseline)
+  - Random Forest
+  - XGBoost
+  - Neural Network (2 layers + Dropout)
+- **Evaluation Metrics**:
+  - Accuracy, Precision, Recall
+  - ROC Curve, AUC, Confusion Matrix
+
+### 📈 Business Value:
+- Early churn detection
+- Targeted retention strategies
+- Customer lifetime value optimization
+
+### 🔗 Code Notebook: `Week_2_Task_2` (Google Colab)
+
+---
+
+## 📊 Task 6 – Business Dashboard Development
+
+### ⚙ Tools: Power BI / Tableau
+
+### 💡 Dashboard KPIs:
+- Total Sales, Avg. Basket Size, Churn Rate, LTV
+- Sales by Product, Region, Segment
+- Filters: Time, Region, Product, Segment
+- Geo-map of customer activity
+
+### 📤 Deliverable: Exported dashboard (Web / PDF)
+
+---
+
+## 📈 Task 7 – Predictive Revenue Modeling
+
+### 🎯 Objective:
+Forecast future revenue using time-series and regression models.
+
+### 📌 Forecasting Methods:
+1. **Prophet**: 30-day prediction, seasonality handling
+2. **ARIMA**: Auto-parameter tuning (p,d,q), non-seasonal model
+3. **Regression**: Uses price & freight value for monthly forecasts
+
+### 📊 Scenario Analysis:
+- +10% marketing spend simulation
+- Model performance: MAE, RMSE
+
+### 📈 Business Value:
+- Revenue target setting
+- Scenario-based planning
+- Demand forecasting & budget support
+
+### 🔗 Code Notebook: `Week_2_Task_3` (Google Colab)
+
+---
+
+## 🔮 Future Enhancements
+- Add behavioral features (session/product categories)
+- Time-based segmentation & transition analysis
+- A/B testing and campaign validation
+- Ensemble models, deep learning (LSTM/Transformer)
+- Lifetime value modeling & hierarchical forecasts
