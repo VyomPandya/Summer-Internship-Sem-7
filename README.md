@@ -179,6 +179,62 @@ Analyze customer purchase patterns, churn behavior, product trends, and marketin
 
 ---
 
+### 📚 References:
+- [Pandas Documentation](https://pandas.pydata.org/docs/)  
+- [SciPy Documentation](https://docs.scipy.org/doc/scipy/)  
+- [scikit-learn Clustering](https://scikit-learn.org/stable/modules/clustering.html)  
+
+---
+
+## Week 4 Report
+
+### 📊 Project Title: Customer Lifetime Value & Dashboard Insights
+
+#### 🧠 Key Objectives
+- Evaluate campaign performance through A/B testing  
+- Visualize customer behavior and value trends  
+- Estimate and represent Customer Lifetime Value  
+
+#### 🛠️ Tools Used
+- Python (Plotly)  
+- Power BI  
+- scikit-learn  
+
+---
+
+### 📌 Summary of Tasks:
+1. **Marketing Performance Analysis**  
+   - Conducted A/B testing and statistical evaluations  
+   - Compared campaign outcomes through visual comparisons  
+
+2. **Interactive Visualizations**  
+   - Created dynamic charts using Plotly  
+   - Built interactive dashboards to track behavioral KPIs  
+
+3. **Customer Lifetime Value Modeling**  
+   - Estimated CLTV using tenure, spend, frequency  
+   - Highlighted high-value customers in Power BI reports  
+
+4. **Final Reporting**  
+   - Compiled final Jupyter notebook with analysis + visuals  
+   - Prepared Power BI dashboard export (PDF, Web View)  
+
+---
+
+### 🔭 Plans for Week 5:
+- Finalize internship capstone report and insights presentation  
+- Refine predictive models for churn and customer segmentation  
+- Enhance dashboard interactivity and export formats  
+
+---
+
+### 📚 References:
+- [Plotly Documentation](https://plotly.com/python/)  
+- [Power BI Documentation](https://powerbi.microsoft.com/en-us/)  
+- [scikit-learn Clustering](https://scikit-learn.org/stable/modules/clustering.html)  
+
+---
+
 > 🧑‍🎓 Student: Vyom Pandya  
 > 🎓 Roll No: 22IT157  
 > 🏢 Company: Agevole Innovation  
