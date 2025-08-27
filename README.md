@@ -1,279 +1,164 @@
-# 7th Semester Summer Internship – Data Analytics
-
-## Week 1 Report
-
-A concise summary of activities, learnings, and outputs achieved during the first week of my 7th semester summer internship in Data Analytics.
-
----
-
-## 🚀 Internship Overview
-
-This repository captures my Week 1 progress as I embark on a comprehensive data analytics learning path during my 7th semester summer internship. It covers:
-
-- Foundational concepts and tool setup  
-- Data cleaning and manipulation in Excel and Python  
-- Exploratory data analysis (EDA)  
-- Data visualization tool introduction  
-- SQL query practice  
-- Initial capstone project planning  
-
----
-
-## 📅 Week 1 Breakdown
-
-### 1. Onboarding & Analytics Foundations
-- **Concepts Covered**  
-  - Analytics lifecycle, data types (structured, unstructured, semi-structured)  
-- **Environment Setup**  
-  - Installed Anaconda (Jupyter), Microsoft Excel, Power BI Desktop (Tableau Public installed as an alternative)  
-- **Courses & Tutorials**  
-  - Completed IBM’s beginner analytics YouTube playlist  
-- **Hands-On Task**  
-  - Imported a sample CSV into Excel, calculated averages, created pivot tables & charts  
-
-### 2. Data Cleaning & Manipulation in Excel & Python
-- **Key Topics**  
-  - Handling missing values, duplicates, inconsistent formats  
-- **Excel Practice**  
-  - Cleaned a “messy” dataset by removing duplicates and standardizing date formats  
-- **Python & Pandas**  
-  - Loaded the Titanic dataset; used `df.info()`, `df.describe()`; imputed missing ages; dropped irrelevant columns  
-
-### 3. Exploratory Data Analysis (EDA)
-- **Descriptive Statistics**  
-  - Central tendency, dispersion, correlation  
-- **Visualization Tools**  
-  - Used `matplotlib`, `seaborn` for histograms, boxplots, heatmaps  
-  - Generated an automated EDA report with `pandas_profiling`  
-- **Notebook Deliverable**  
-  - Jupyter Notebook documenting insights and annotated graphs  
-
-### 4. Data Visualization Tools
-- **Power BI Introduction**  
-  - Data import, Query Editor, Report Canvas overview  
-- **Dashboard Prototype**  
-  - Regional sales slicers; KPIs for revenue & profit margin  
-- **Next Steps**  
-  - Replicate in Tableau Public with interactive map and filters  
-
-### 5. SQL for Data Analytics
-- **Core SQL Skills**  
-  - SELECT, WHERE, JOIN, GROUP BY, ORDER BY, aggregate functions  
-- **Practice Platforms**  
-  - Mode Analytics, HackerRank  
-- **Business Queries**  
-  - Solved 10 real-world queries on a sample eCommerce dataset  
-- **Integration**  
-  - Connected Azure SQL to Power BI for live visualization  
-
-### 6. Capstone Project Initiation
-- **Dataset Selection**  
-  - Titanic dataset from Kaggle  
-- **Scope & Deliverables**  
-  1. Data cleaning & preprocessing  
-  2. EDA & insights  
-  3. Interactive dashboard (Power BI/Tableau)  
-  4. Final report & mentor presentation  
-
----
-
-## Week 2 Report
-
-### 🔍 Project Title: Customer Behavior & Revenue Optimization for E-Commerce Business
-
-#### 🎯 Objective
-Analyze customer purchase patterns, churn behavior, product trends, and marketing performance to generate insights that improve retention, sales, and overall business performance.
-
-#### 📊 Dataset
-- **Source**: Cleaned Dataset provided by Team A  
-- **Base**: E-Commerce Public Dataset (Olist)  
-- **File**: `master_dataset.csv`
-
----
-
-### 🧩 Task 3 – Customer Segmentation
-
-#### 📌 Key Steps:
-1. **RFM Analysis**: Recency, Frequency, Monetary values for each customer  
-2. **Clustering**: MiniBatchKMeans & HDBSCAN applied for segmentation  
-3. **Visualization**: PCA and t-SNE used to visualize clusters  
-4. **Strategy Recommendation**: Marketing actions based on customer segments  
-
-#### 🧪 Implementation Highlights:
-- Cleaned and transformed data  
-- Extracted RFM metrics  
-- Applied clustering algorithms  
-- Used PCA and t-SNE for dimensionality reduction  
-
----
-
-### 🧠 Task 4 – Churn Prediction Model
-
-#### 📌 Key Steps:
-1. **Labeling**: Identified churned customers (180 days)  
-2. **Feature Engineering**: Tenure, complaints, satisfaction  
-3. **Models**: Logistic Regression, Random Forest, XGBoost, Neural Network  
-4. **Evaluation**: Accuracy, Precision, ROC-AUC  
-
----
-
-### 📊 Task 6 – Dashboard Development
-
-#### ⚙ Tools:
-- Power BI / Tableau  
-
-#### 💡 KPIs:
-- Churn Rate, Sales Volume, Customer Segments, Regional Performance  
-
----
-
-### 📈 Task 7 – Predictive Revenue Modeling
-
-#### 📌 Models Used:
-- Prophet, ARIMA, Linear Regression  
-
-#### 💡 Outcome:
-- Forecasts and actionable insights to support financial decisions  
-
----
-
-## Week 3 Report
-
-### 📊 Project Title: Marketing Campaign Analytics & A/B Testing
-
-#### 🧠 Key Objectives
-- Explore marketing performance through data analysis  
-- Simulate A/B testing scenarios and recommend strategies  
-- Apply statistical tests and dimensionality reduction  
-
-#### 🛠️ Tools Used
-- Python (Pandas, Seaborn, Matplotlib)  
-- Scikit-learn  
-- SciPy  
-
----
-
-### 📌 Summary of Tasks:
-1. **Marketing Data Analysis**  
-   - Performed EDA using Seaborn and Matplotlib  
-   - Feature engineering (Age, TotalSpend)  
-
-2. **A/B Testing Simulation**  
-   - Implemented and interpreted t-tests  
-   - Visualized response behaviors by group  
-
-3. **Statistical Testing**  
-   - Applied PCA for dimensionality reduction  
-   - Conducted Chi-Square and ANOVA tests  
-
-4. **Insight Generation**  
-   - Created personas based on age, education, spend  
-   - Generated recommendations for targeted campaigns  
-
----
-
-### 🔭 Plans for Week 4:
-- Build a Customer Lifetime Value (CLTV) model  
-- Develop dashboards integrating churn and campaign analytics  
-- Prototype a recommender system based on segmentation  
-
----
-
-### 📚 References:
-- [Pandas Documentation](https://pandas.pydata.org/docs/)  
-- [SciPy Documentation](https://docs.scipy.org/doc/scipy/)  
-- [scikit-learn Clustering](https://scikit-learn.org/stable/modules/clustering.html)  
-
----
-
-## Week 4 Report
-
-### 📊 Project Title: Customer Lifetime Value & Dashboard Insights
-
-#### 🧠 Key Objectives
-- Evaluate campaign performance through A/B testing  
-- Visualize customer behavior and value trends  
-- Estimate and represent Customer Lifetime Value  
-
-#### 🛠️ Tools Used
-- Python (Plotly)  
-- Power BI  
-- scikit-learn  
-
----
-
-### 📌 Summary of Tasks:
-1. **Marketing Performance Analysis**  
-   - Conducted A/B testing and statistical evaluations  
-   - Compared campaign outcomes through visual comparisons  
-
-2. **Interactive Visualizations**  
-   - Created dynamic charts using Plotly  
-   - Built interactive dashboards to track behavioral KPIs  
-
-3. **Customer Lifetime Value Modeling**  
-   - Estimated CLTV using tenure, spend, frequency  
-   - Highlighted high-value customers in Power BI reports  
-
-4. **Final Reporting**  
-   - Compiled final Jupyter notebook with analysis + visuals  
-   - Prepared Power BI dashboard export (PDF, Web View)  
-
-## Week 5 Report
-
-### 📊 Project Title: Integrated Modeling & Dashboard Finalization
-
-#### 🧠 Key Objectives
-- Optimize predictive model performance  
-- Integrate all key metrics and models into a single interactive business dashboard  
-- Prepare final deliverables for stakeholder presentation  
-
-#### 🛠️ Tools Used
-- Python (scikit-learn, SHAP)  
-- Power BI  
-- GridSearchCV for model tuning  
-
----
-
-### 📌 Summary of Tasks:
-1. **Model Optimization**  
-   - Tuned Logistic Regression, XGBoost, and Neural Net models using `GridSearchCV`  
-   - Evaluated performance with Precision, Recall, AUC, and ROC metrics  
-
-2. **Feature Refinement**  
-   - Conducted correlation analysis for multicollinearity detection  
-   - Used SHAP values to interpret feature importance and model transparency  
-
-3. **Dashboard Integration**  
-   - Merged CLTV, churn prediction, and marketing response data into a single Power BI report  
-   - Created filters and slicers for executive use (e.g., by age, education, tenure)  
-
-4. **Report Export & Visualization**  
-   - Enabled export options for PowerPoint and PDF  
-   - Developed charts summarizing model comparisons and business KPIs  
-
-5. **Final Report Compilation**  
-   - Structured a comprehensive report including:
-     - Project objectives and methodology  
-     - Visual insights (dashboards and model plots)  
-     - KPI summary and future scope  
-
----
-
-### 🔭 Plans for Week 6:
-- Deliver and present the capstone insights report  
-- Participate in feedback and evaluation sessions  
-- Document challenges, learnings, and improvement opportunities
-
-### 📚 References:
-- [Plotly Documentation](https://plotly.com/python/)  
-- [Power BI Documentation](https://powerbi.microsoft.com/en-us/)  
-- [scikit-learn Clustering](https://scikit-learn.org/stable/modules/clustering.html)  
-
----
-
-> 🧑‍🎓 Student: Vyom Pandya  
-> 🎓 Roll No: 22IT157  
-> 🏢 Company: Agevole Innovation  
-> 📅 Internship: Summer 2025  
-> 📂 Project: Data Analytics
+# 🚀 7th Semester Summer Internship -- Data Analytics (Weeks 1--7)
+
+**👩‍🎓 Student:** Vyom Pandya (Roll No: 22IT157)\
+**🏢 Company:** Agevole Innovation Pvt. Ltd.\
+**📅 Duration:** Summer 2025\
+**📍 Focus:** End-to-End Data Analytics Pipeline -- Data Cleaning, EDA,
+Modeling, Visualization, and Dashboarding
+
+------------------------------------------------------------------------
+
+## 📖 Overview
+
+This repository documents the **week-by-week progress** of the
+internship, focusing on the development of **analytical skills** using
+**Python, SQL, Power BI, Tableau, and machine learning** techniques.
+Each week builds upon the previous, moving from **basic data handling**
+to **advanced predictive modeling** and **interactive dashboard
+creation**.
+
+------------------------------------------------------------------------
+
+## 🗂️ Week-by-Week Breakdown
+
+### **Week 1: Foundations & Project Kick-off 🔑**
+
+**Highlights:**
+- **Onboarding & Learning Resources:**
+- Understood **data analytics lifecycle**, types of data (structured,
+unstructured, semi-structured).
+- Completed IBM's beginner-level **analytics tutorials** for a solid
+foundation.
+- **Tools & Setup:** Installed **Anaconda**, **Jupyter Notebook**,
+**Excel**, **Power BI**, and **Tableau Public**.
+- **Data Cleaning & EDA:**
+- Worked on **Titanic dataset**: handled missing values, dropped
+irrelevant columns.
+- Used **Excel functions**, **Pandas**, and `pandas_profiling` for
+exploratory analysis.
+- Visualized data with **Matplotlib** and **Seaborn** (heatmaps,
+histograms, boxplots).
+- **SQL Practice:** Learned **basic queries**, joins, aggregations on
+datasets using **Mode Analytics** and **HackerRank**.
+- **Dashboard Prototype:** Created a **Power BI dashboard** with KPIs
+like **revenue, profit margin**, and **regional slicers**.
+- **Capstone Selection:** Finalized **Titanic analytics project** scope
+-- cleaning, analysis, dashboard, and reporting.
+
+------------------------------------------------------------------------
+
+### **Week 2: E-Commerce Customer Insights & Forecasting 🛒**
+
+**Focus:** Understanding customer behavior and predicting future
+trends.
+- **Dataset:** Modified **Olist e-commerce dataset**
+(`master_dataset.csv`).
+- **Key Tasks:**
+- **Customer Segmentation:**
+- Applied **RFM Analysis** to score customers based on **Recency,
+Frequency, Monetary value**.
+- Implemented **clustering algorithms**: MiniBatchKMeans, HDBSCAN.
+- **Visualization:** Reduced dimensions with **PCA** and **t-SNE** for
+better representation.
+- **Churn Prediction:**
+- Defined churn labels (inactivity \> 180 days).\
+- Engineered features like **tenure**, **order counts**, **review
+scores**.
+- Trained **Logistic Regression**, **Random Forest**, **XGBoost**, and
+**Neural Networks**.
+- **Revenue Forecasting:** Used **Prophet**, **ARIMA**, and **Linear
+Regression** to predict sales trends.
+- **Deliverables:** Interactive **Power BI dashboards** highlighting
+churn, revenue, and top-performing products.
+
+------------------------------------------------------------------------
+
+### **Week 3: Marketing Campaign Analytics & A/B Testing 📊**
+
+**Goal:** Evaluate campaign success and customer responsiveness.
+- **Tools:** Python (**Pandas**, **Seaborn**, **Matplotlib**, **SciPy**,
+**scikit-learn**).
+- **Work Done:**
+- Conducted **EDA** on campaign dataset.
+- Created **customer personas** based on demographics and spending.
+- **A/B Testing:** Simulated campaign experiments and validated results
+with **t-tests, ANOVA, Chi-Square**.
+- **Insights:** Identified effective channels and recommended
+**data-driven marketing strategies**.
+
+------------------------------------------------------------------------
+
+### **Week 4: Customer Lifetime Value (CLTV) & Dashboarding 💡**
+
+**Objective:** Identify high-value customers and improve retention
+strategies.
+- **Highlights:**
+- Estimated **CLTV** using behavioral features like **frequency, spend,
+and tenure**.
+- Enhanced **Power BI dashboards** with dynamic visualizations.
+- Created **Plotly-based Python dashboards** for interactive
+exploration.
+- Documented actionable insights for **marketing and sales teams**.
+
+------------------------------------------------------------------------
+
+### **Week 5: Model Optimization & Unified Dashboard ⚙️**
+
+**Focus:** Refining predictive models and consolidating insights.
+- **Tasks Performed:**
+- **Hyperparameter Tuning:** Used **GridSearchCV** on Logistic
+Regression, XGBoost, and Neural Networks.
+- **Feature Importance:** Implemented **SHAP** for model
+interpretability.
+- **Integrated Dashboard:** Combined churn, CLTV, and campaign analysis
+into **one Power BI dashboard** with slicers and filters.
+- Exported **PDF and PPT reports** for stakeholders.
+
+------------------------------------------------------------------------
+
+### **Week 6: Capstone Delivery & Final Feedback 📝** 
+
+-   Consolidated all notebooks and dashboards.
+-   Prepared **capstone presentation** including key findings, models,
+    and KPIs.
+-   Addressed mentor feedback and made **final refinements** to
+    analysis.
+
+------------------------------------------------------------------------
+
+### **Week 7: Final Submission & Reflection 🎓** 
+
+-   Finalized **reports, dashboards, and code repository**.
+-   Delivered a **comprehensive presentation** to evaluators.
+-   Documented **key learnings**, challenges faced, and **future
+    improvements**.
+
+------------------------------------------------------------------------
+
+## 🛠 Tools & Skills Used
+
+-   **Languages & Libraries:** Python (**Pandas, NumPy, Matplotlib,
+    Seaborn, scikit-learn, XGBoost, Prophet, SHAP**), SQL.
+-   **Visualization Tools:** Power BI, Tableau Public, Plotly.\
+-   **Techniques:**
+    -   **Data Cleaning & Preprocessing**
+    -   **EDA & Visualization**
+    -   **Clustering & Segmentation**
+    -   **Predictive Modeling** (Regression, Classification)\
+    -   **Forecasting** (Time-Series Models)
+    -   **A/B Testing & Statistical Analysis**
+    -   **Model Tuning & Explainability**
+    -   **Dashboard Design & Reporting**
+
+------------------------------------------------------------------------
+
+## 📈 Outcomes & Learning
+
+-   Built **end-to-end analytics pipeline** covering data ingestion to
+    insights.
+-   Learned **business-oriented problem solving** with datasets like
+    Titanic and Olist.
+-   Strengthened **presentation and visualization skills** through Power
+    BI/Tableau.
+-   Developed a **strong foundation in ML models, feature engineering,
+    and interpretability tools**.
